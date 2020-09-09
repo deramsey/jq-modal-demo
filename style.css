@@ -1,0 +1,59 @@
+*{
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #337777;
+  margin: 0;
+  padding: 0;
+}
+
+form{
+  background-color: white;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  font-size: .8em;
+  text-align: left;
+  color: #777;
+}
+
+input[type=text], select, textarea, input[type=button]{
+  height: 30px;
+  width: 100%;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+textarea {
+  min-height: 300px;
+}
+
+/*Modal CSS*/
+#curtain {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+#thanks{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border: 10px solid;
+  text-align: center;
+  margin: 10% auto;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 20px;
+}
+

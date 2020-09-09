@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Modal Demonstration</title>
+<link rel="stylesheet" href="style.css">
+    
+
+<script src="script.js"></script>
+    
+</head>
+<body>
+
+<form class="main_form">
+  <fieldset>
+    <legend>Enter your Information:</legend>
+  <label for="f_name">First Name:</label>
+  <input type="text" name="f_name" id="f_name" placeholder="First Name">
+
+  <label for="l_name">Last Name:</label>
+  <input type="text" name="l_name" id="l_name" placeholder="Last Name">
+  
+  <label for="addy">Address:</label>
+  <input type="text" name="addy" id="addy" placeholder="Address">
+
+  <label for="city">City:</label>
+  <input type="text" name="city" id="city" placeholder="City">
+
+  <label for="state">State:</label>
+  <select name="state" id="state" placeholder="State">
+    <option>Imagine a list of states</option>
+    <option>Second Option</option>
+    <option>Third Option</option>
+  </select>
+  
+  <label for="msg">Your Message:</label>
+  <textarea name="msg" id="msg">
+  </textarea>
+
+<input type="button" id="send" value="Send">
+  
+</fieldset>
+ <form>
+   
+ <div id="modal">
+ <div id="curtain">
+   <section id="thanks">
+     Submission Successful.<br><br>Thank You!<br><br><br><br><br>
+     <span id="close"><a href="#">Close</a></span>
+       
+     </section>
+   </div>   
+   </div>
+ 
+
+</body>
+</html>
